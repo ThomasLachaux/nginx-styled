@@ -1,0 +1,41 @@
+body {
+  max-width: 90%;
+}
+
+#title {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+#title .stats {
+  font-size: 0.8em;
+  float: right;
+  margin: 0 10px;
+}
+
+#listing {
+  font-size: 1.1em;
+}
+
+#listing h1 {
+  font-size: 1.1em;
+}
+
+.folderup {
+  color: #FFCA28;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+/* Add the far class */
+a.link-icon:before {
+  margin-right: 10px;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+  content: "\f15b"; /* File */
+}
+
+a[href$="/"].link-icon:before {
+  margin-right: 5px;
+  content: "\f07b"; /*Folder*/
+}
