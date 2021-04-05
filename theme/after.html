@@ -17,7 +17,7 @@
       var allLinks = document.getElementsByTagName('a');
       for (let item of allLinks){
                 if (item.innerHTML != "../"){
-                            if (item.innerHTML.endsWith('/')){
+                            if (item.href.endsWith('/')){
                                           dirCount += 1;
                                         }
                             else {
