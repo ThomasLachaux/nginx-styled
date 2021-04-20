@@ -22,7 +22,7 @@ body {
 }
 
 .folderup {
-  color: #FFCA28;
+  color: #ffca28;
   font-size: 1.4em;
   font-weight: bold;
 }
@@ -30,7 +30,7 @@ body {
 /* Add the far class */
 a.link-icon:before {
   margin-right: 10px;
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
   content: "\f15b"; /* File */
 }
@@ -38,4 +38,10 @@ a.link-icon:before {
 a[href$="/"].link-icon:before {
   margin-right: 5px;
   content: "\f07b"; /*Folder*/
+}
+
+a[href$=".mkv"].link-icon:before,
+a[href$=".mp4"].link-icon:before {
+  margin-right: 10px;
+  content: "\f1c8"; /* Film */
 }
